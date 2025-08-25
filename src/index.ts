@@ -518,7 +518,7 @@ async function init() {
 
   // Show welcome message with a nice box
   console.log(
-    boxen(bold(greenBright("MVC Full Stack Generator")), {
+    boxen(bold(greenBright("Tibbs Stack Generator")), {
       padding: 1,
       margin: 1,
       borderColor: "green",
