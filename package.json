@@ -1,0 +1,62 @@
+{
+  "name": "create-tibbs-stack",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "create-tibbs-stack": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "template-*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "author": "TTibbs <wtibbs@proton.me>",
+  "license": "MIT",
+  "description": "A CLI tool to quickly scaffold full stack applications with frontend and backend",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TTibbs/create-mvc-server.git",
+    "directory": "."
+  },
+  "homepage": "https://create-mvc-server.vercel.app/",
+  "bugs": {
+    "url": "https://github.com/TTibbs/create-mvc-server/issues"
+  },
+  "keywords": [
+    "cli",
+    "fullstack",
+    "frontend",
+    "backend",
+    "scaffolding",
+    "react",
+    "nextjs",
+    "vite"
+  ],
+  "dependencies": {
+    "@types/pg": "^8.11.10",
+    "boxen": "^8.0.1",
+    "cross-spawn": "^7.0.6",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "figures": "^6.1.0",
+    "inquirer": "^12.3.1",
+    "minimist": "^1.2.8",
+    "mysql2": "^3.12.0",
+    "ora": "^8.2.0",
+    "pg": "^8.13.1",
+    "picocolors": "^1.1.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.6",
+    "@types/minimist": "^1.2.5",
+    "@types/prompts": "^2.4.9",
+    "supertest": "^7.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "unbuild": "^3.2.0"
+  }
+}
